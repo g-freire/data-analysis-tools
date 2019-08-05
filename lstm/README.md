@@ -1,5 +1,16 @@
 # LSTM Time Series Forecast Models
-## Steps to run 
+```diff  
+LSTM THEORY 
+
+The key to LSTMs is the cell state, the horizontal line running through the top of the diagram.
+It’s very easy for information to just flow along it unchanged.
+The LSTM does have the ability to remove or add information to the cell state, carefully regulated by structures called gates.
+Gates are a way to optionally let information through. They are composed out of a sigmoid neural net layer and a pointwise multiplication operation.
+An LSTM has three of these gates, to protect and control the cell state.
+```
+![Alt text](./img/lstm-diagram.PNG)
+
+## Steps to run environment
 ```diff  
 WIN 10 64 - workign packages versions
 numpy==1.16 
@@ -12,15 +23,5 @@ try:
 or: 
     pip show #package and delete os global version
 ```
-![Alt text](./cli_output.png)
+![Alt text](./img/cli_output.png)
 
-```diff  
-LSTM THEORY 
-
-The key to LSTMs is the cell state, the horizontal line running through the top of the diagram.
-It’s very easy for information to just flow along it unchanged.
-The LSTM does have the ability to remove or add information to the cell state, carefully regulated by structures called gates.
-Gates are a way to optionally let information through. They are composed out of a sigmoid neural net layer and a pointwise multiplication operation.
-An LSTM has three of these gates, to protect and control the cell state.
-```
-![Alt text](./lstm-diagram.PNG)
