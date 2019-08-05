@@ -1,3 +1,4 @@
+# LSTM Time Series Forecast Models
 ## Steps to run 
 ```diff  
 WIN 10 64 - workign packages versions
@@ -11,7 +12,7 @@ try:
 or: 
     pip show #package and delete os global version
 ```
-![Alt text](./cli_output.PNG)
+![Alt text](./cli_output.png)
 
 ```diff  
 LSTM THEORY 
