@@ -1,6 +1,0 @@
-numpy==1.16 
-pandas==0.22.0
-setuptools==41.0.0
-tensorflow
-keras
-
