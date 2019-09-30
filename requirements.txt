@@ -1,0 +1,12 @@
+jupyter
+jupyter_nbextensions_configurator
+jupyter_contrib_nbextensions
+seaborn
+numpy
+pandas
+scikit-learn
+scipy
+sklearn
+keras
+tensorflow 
+torchvision # NO CUDA
