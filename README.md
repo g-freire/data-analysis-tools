@@ -1,3 +1,4 @@
 ### Data Analysis  
-### to run the notebook
+### to run the notebooks
 ### $ jupyter notebook
+### $ jupyter lab
